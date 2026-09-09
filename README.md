@@ -2,10 +2,12 @@
 
 Overview
 
-This project analyzes agricultural performance across three Indian cropping seasons — Kharif, Rabi, and Zaid — to identify seasonal patterns, root causes, and evidence-based recommendations for stakeholders. The analysis is based on 4,000 farm records across 8 states, covering environmental conditions, resource usage, and financial outcomes.
+This project analyzes agricultural performance across three Indian cropping seasons — Kharif, Rabi, and Zaid — to identify seasonal patterns, root causes, and evidence-based recommendations for stakeholders.
+The analysis is based on 4,000 farm records across 8 states, covering environmental conditions, resource usage, and financial outcomes.
 
 Problem Statement:
-Agricultural performance varies across seasons due to differences in environmental conditions, resource availability, and farming practices — but raw data alone doesn't explain how or why. This project investigates seasonal differences in agricultural performance and identifies meaningful patterns, trends, and relationships within the dataset.
+Agricultural performance varies across seasons due to differences in environmental conditions, resource availability, and farming practices — but raw data alone doesn't explain how or why.
+This project investigates seasonal differences in agricultural performance and identifies meaningful patterns, trends, and relationships within the dataset.
 
 Dataset
 File: seasonal_agriculture_performance_dataset.csv
@@ -16,7 +18,9 @@ Coverage: Farm ID, State, District, Crop, Season, farm area, weather/soil condit
 
 Key Finding
 
-Loss rates rise steadily across the season calendar — 42.2% (Kharif) → 51.1% (Rabi) → 64.5% (Zaid). This is driven by declining yield and production (not cost or market price), traced back to Zaid's harsher environmental conditions: lowest rainfall, lowest soil moisture, lowest humidity, and highest temperature — despite farmers using the most irrigation water of any season.
+Loss rates rise steadily across the season calendar — 42.2% (Kharif) → 51.1% (Rabi) → 64.5% (Zaid).
+This is driven by declining yield and production (not cost or market price), 
+traced back to Zaid's harsher environmental conditions: lowest rainfall, lowest soil moisture, lowest humidity, and highest temperature — despite farmers using the most irrigation water of any season.
 
 Project Structure
 
@@ -35,14 +39,22 @@ Section	Description
 
 Tools Used
 Python — Pandas, NumPy
+
 Visualization — Matplotlib, Seaborn
+
 Environment — Jupyter Notebook
 
+
 How to Run
+
 Ensure seasonal_agriculture_performance_dataset.csv is in the same directory as the notebook.
+
 Install dependencies:
+
    pip install pandas matplotlib seaborn
+   
 Open Seasonal_Agriculture_Performance_Analysis.ipynb in Jupyter Notebook / JupyterLab / VS Code and run all cells.
+
 Author
 
 Tamanna Yadav
