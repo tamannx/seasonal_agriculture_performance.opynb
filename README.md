@@ -1,4 +1,4 @@
-Seasonal Agriculture Performance Analysis
+**Seasonal Agriculture Performance Analysis**
 
 Overview
 
@@ -9,14 +9,19 @@ Agricultural performance varies across seasons due to differences in environment
 
 Dataset
 File: seasonal_agriculture_performance_dataset.csv
+
 Size: 4,000 rows × 28 columns
+
 Coverage: Farm ID, State, District, Crop, Season, farm area, weather/soil conditions, input usage (fertilizer, pesticide, water), yield/production, financials (cost, revenue, profit), and disease/pest risk
+
 Key Finding
 
 Loss rates rise steadily across the season calendar — 42.2% (Kharif) → 51.1% (Rabi) → 64.5% (Zaid). This is driven by declining yield and production (not cost or market price), traced back to Zaid's harsher environmental conditions: lowest rainfall, lowest soil moisture, lowest humidity, and highest temperature — despite farmers using the most irrigation water of any season.
 
 Project Structure
+
 Section	Description
+
 1. Setup & Data Loading	Import libraries, load dataset
 2. Explore & Understand	Check structure, category balance, nulls
 3. Data Cleaning	Per-season median imputation, integrity checks
