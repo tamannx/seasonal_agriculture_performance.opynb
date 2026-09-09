@@ -3,10 +3,12 @@
 Overview
 
 This project analyzes agricultural performance across three Indian cropping seasons — Kharif, Rabi, and Zaid — to identify seasonal patterns, root causes, and evidence-based recommendations for stakeholders.
+
 The analysis is based on 4,000 farm records across 8 states, covering environmental conditions, resource usage, and financial outcomes.
 
 Problem Statement:
 Agricultural performance varies across seasons due to differences in environmental conditions, resource availability, and farming practices — but raw data alone doesn't explain how or why.
+
 This project investigates seasonal differences in agricultural performance and identifies meaningful patterns, trends, and relationships within the dataset.
 
 Dataset
@@ -19,6 +21,7 @@ Coverage: Farm ID, State, District, Crop, Season, farm area, weather/soil condit
 Key Finding
 
 Loss rates rise steadily across the season calendar — 42.2% (Kharif) → 51.1% (Rabi) → 64.5% (Zaid).
+
 This is driven by declining yield and production (not cost or market price), 
 traced back to Zaid's harsher environmental conditions: lowest rainfall, lowest soil moisture, lowest humidity, and highest temperature — despite farmers using the most irrigation water of any season.
 
@@ -38,6 +41,7 @@ Section	Description
 10. Future Scope	Suggested extensions for deeper analysis
 
 Tools Used
+
 Python — Pandas, NumPy
 
 Visualization — Matplotlib, Seaborn
